@@ -1,0 +1,257 @@
+/*CSS reset settings here*/
+*{
+ margin: 10px;
+ padding: 10px;
+}
+body{
+  display: inline-block;
+}
+h1 {
+  font-family: Comic Sans MS;
+  color: black;
+  margin-left: -20px;
+  font-size:30px;
+
+}
+h2{
+  font-size: 28px;
+
+}
+h3{
+  color:white;
+    margin-top: -10px;
+    font-family: arial;
+    font-size: 25px;
+}
+h4{
+  color:white;
+  margin-left: -9px;
+    margin-top: -10px;
+    font-family: arial;
+    font-size: 22px;
+}
+h5{font-family:sans-serif;
+font-size: 11px;
+
+}
+h6 {
+  font-family:sans-serif;
+  font-size:18px;
+  font-weight: lighter;
+      margin-top: -9px;
+          margin-bottom: -30px;
+
+}
+p {
+  font-family:sans-serif;
+font-size: 15px;
+margin-right: -100px
+}
+
+
+.gradient_top_bar{
+  height: 29px;
+  width: 450px;
+  display: inline-block;
+  margin: -10px;
+
+  background: rgb(117,115,129); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(rgb(160,160,165), rgb(117,115,129),rgb(160,160,165)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgb(160,160,165), rgb(117,115,129),rgb(160,160,165)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgb(160,160,165), rgb(117,115,129),rgb(160,160,165)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgb(160,160,165), rgb(117,115,129),rgb(160,160,165)); /* Standard syntax */
+}
+.gradient_top_bar a{
+  color:black
+}
+.subcontents_header_bar{
+  width: 100%;
+  height:30px;
+  display: inline-block;
+  margin: -10px;
+
+      background: rgb(117,115,129); /* For browsers that do not support gradients */
+      background: -webkit-linear-gradient(rgb(160,160,165), rgb(117,115,129),rgb(160,160,165)); /* For Safari 5.1 to 6.0 */
+      background: -o-linear-gradient(rgb(160,160,165), rgb(117,115,129),rgb(160,160,165)); /* For Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(rgb(160,160,165), rgb(117,115,129),rgb(160,160,165)); /* For Firefox 3.6 to 15 */
+      background: linear-gradient(rgb(160,160,165), rgb(117,115,129),rgb(160,160,165)); /* Standard syntax */
+}
+.subcontents{
+    height: auto;
+ width: 28%;
+
+ display: inline-block;
+    margin-left: 16px;
+padding: 10px;
+
+background: rgb(210,192,209); /* For browsers that do not support gradients */
+background: -webkit-linear-gradient(left top, white, rgb(210,192,209)); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(bottom right, white, rgb(210,192,209)); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(bottom right, white, rgb(210,192,209)); /* For Firefox 3.6 to 15 */
+background: linear-gradient(to bottom right, white, rgb(210,192,209)); /* Standard syntax */
+
+}
+.subcontents_blog{
+  width: 100%;
+margin-left: -10px;
+  height:300px;
+
+  display:inline-block;
+  background: rgb(210,192,209); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, white, rgb(210,192,209)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, white, rgb(210,192,209)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, white, rgb(210,192,209)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, white, rgb(210,192,209)); /* Standard syntax */
+}
+.subcontents_blog img{
+  margin-left: -4px;
+      margin-top: -9px;
+      padding: 0px;
+      max-width: 105%;
+      max-height: 100%
+}
+
+.technology_box{
+  display:inline-block;
+  width: 100%;
+  margin-left: -10px;
+  height:auto;
+
+}
+.technology_box img{
+  width: 46px;
+  padding: 1px;
+  margin: 1px;
+}
+.button_box{
+  padding:0px;
+  margin:0px;
+
+text-align:center;
+
+}
+button{
+  padding:10px;
+  color:white;
+  background-color: #008000;
+  border-radius:14px;
+}
+
+#master_title{
+  display:inline-block;
+  width:950px;
+  height:auto;
+}
+#master_title_left{
+  display:inline-block;
+  padding-right: 248px
+}
+#master_title_right{
+  display:inline-block;
+ margin-right:0px;
+}
+
+#wrapper {
+  width: 950px;
+  height: 981px;
+  background: rgb(24,11,14); /* FROM w3 schools https://www.w3schools.com/css/css3_gradients.asp */
+
+  background: radial-gradient(rgb(24,11,14), rgb(96,69,82), rgb(24,11,14)); /* Standard syntax */
+  background: -webkit-radial-gradient(rgb(24,11,14), rgb(96,69,82), rgb(24,11,14)); /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(rgb(24,11,14), rgb(96,69,82), rgb(24,11,14)); /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(rgb(24,11,14), rgb(96,69,82), rgb(24,11,14)); /* For Firefox 3.6 to 15 */
+  margin: -20px auto;
+}
+
+#header{
+ height: 300px;
+ width: 970px;
+ display:  flex;
+
+
+}
+#header img{
+  display:inline-block;
+  height: 260px;
+
+  margin-left: -26px;
+    margin-top: -15px;
+  padding:0px;
+  border: 5px solid rgb(179,179,179);
+
+}
+#header_left{
+    width: auto;
+    display:inline-block;
+
+
+  }
+
+
+#header_right{
+  display: inline-block;
+  width: 350px;
+  height: 250px;
+  /* margin-right: 61px; */
+  margin-top: 5px;
+  padding-right: 110px;
+margin-top: 5px;
+  background: rgb(210,192,209); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, white, rgb(210,192,209)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, white, rgb(210,192,209)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, white, rgb(210,192,209)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, white, rgb(210,192,209)); /* Standard syntax */
+}
+
+
+#header_right a{
+  text-decoration: underline;
+      color: black;
+      margin-left: -9px;
+}
+
+/*
+#navigation{
+ height: 275px;
+ width: 202px;
+ background-color: blue;
+ margin-top: 10px;
+ vertical-align: top;
+
+}
+*/
+#main_content{
+ height: auto;
+ width: 100%;
+
+ display:inline-block;
+ margin: -10px;
+padding-top: 0px;
+
+}
+
+
+
+#footer{
+ height: 50px;
+ width: 950px;
+ background-color: white;
+     margin-left: -10px;
+ display: inline-block;
+ text-align:center;
+
+ font-size: 18px;
+ font-family:arial;
+}
+#footer img{
+  width: 28px;
+padding-right: 2px;
+margin-bottom: -19px;
+}
+#footer a{
+  color: black;
+      padding: 0px;
+      margin-left: -7px;
+  font-style:italic;
+      margin-right: -16px;
+}
